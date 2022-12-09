@@ -1,0 +1,67 @@
+:root {
+    background-color: $color-light-gray;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.dashboard-menu a {
+    color: $color-dark;
+}
+
+.btn, .btn-primary {
+    background-color: $color-highlight;
+    color: white;
+
+    &:hover {
+        background-color: darken($color-highlight, 10%);
+    }
+
+    &:active {
+        background-color: darken($color-highlight, 20%) !important;
+    }
+}
+
+ul {
+    margin: auto;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.profiles img {
+    size: 55px;
+    clip-path: circle();
+    max-width: 55px;
+    display: block;
+    margin: 10px auto;
+}
+
+.profiles svg {
+    display: block;
+    margin: 25px auto;
+    color: $color-dark;
+}
+
+.bannerImage {
+    height: 300px;
+    max-height: 40vh;
+}
+
+.bannerImage, .profileImage {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.profileImage {
+    clip-path: circle();
+    display: block;
+    height: 17vh;
+    margin: auto;
+    max-height: 150px;
+}

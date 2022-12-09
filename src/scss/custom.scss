@@ -1,0 +1,21 @@
+// custom 
+
+$color-highlight: #AD2F68;
+
+$color-light: #FAFCFC;
+
+$color-dark: #414141;
+
+$color-light-gray: #EFF0F0;
+
+$font-family-logo: "eldwin-script", sans-serif;
+
+// bootstrap
+
+$theme-colors: (
+    "dark": $color-dark,
+    "light": $color-light,
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

@@ -2,8 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import useAxios from "../../../hooks/useAxios";
 import Card from "react-bootstrap/Card";
-import CommentButton from "./postActions/Comment";
-import Reactions from "./postActions/Reaction";
 
 export default function PostList() {
 	const [posts, setPosts] = useState([]);

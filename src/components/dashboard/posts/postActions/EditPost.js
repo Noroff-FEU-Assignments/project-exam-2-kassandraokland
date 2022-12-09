@@ -6,7 +6,6 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import FormError from "../../../common/FormError";
 import useAxios from "../../../../hooks/useAxios";
 import Heading from "../../../layout/Heading";
-import DashboardPage from "../../DashboardPage";
 import DeletePostButton from "./DeletePostButton";
 
 const schema = yup.object().shape({

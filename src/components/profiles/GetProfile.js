@@ -1,17 +1,15 @@
 import Container from "react-bootstrap/Container";
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import useAxios from "../../hooks/useAxios";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col"
 import SubHeading from "../layout/SubHeading";
-import AuthContext from "../../context/AuthContext";
 
 export default function GetProfile() {
 	const [profile, setProfile] = useState(null);
     const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(null);
-	const [auth, ] = useContext(AuthContext);
 
 	const http = useAxios();
 	const navigate = useNavigate();

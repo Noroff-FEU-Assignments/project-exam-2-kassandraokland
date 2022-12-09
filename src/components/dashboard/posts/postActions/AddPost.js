@@ -6,8 +6,6 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import FormError from "../../../common/FormError";
 import useAxios from "../../../../hooks/useAxios";
 import Heading from "../../../layout/Heading";
-import MediaDropdown from "../../media/MediaDropdown";
-import DashboardPage from "../../DashboardPage";
 
 const schema = yup.object().shape({
 	title: yup.string().required("Title is required"),

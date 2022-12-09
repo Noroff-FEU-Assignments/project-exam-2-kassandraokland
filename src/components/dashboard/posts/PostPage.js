@@ -1,19 +1,18 @@
 import { Link } from "react-router-dom";
 import Heading from "../../layout/Heading";
-import DashboardPage from "../DashboardPage";
 import PostList from "./PostList";
 import Container from "react-bootstrap/Container";
 
 export default function PostPage() {
 	return (
-		<DashboardPage>
+		<Container>
 			<Heading size="3" content="Posts" />
-			<p>
+			<button>
 				<Link to="/dashboard/posts/add">Add post</Link>
-			</p>
-			<Container>
+			</button>
+			<div>
 					<PostList/>
-			</Container>
-		</DashboardPage>
+			</div>
+		</Container>
 	);
 }

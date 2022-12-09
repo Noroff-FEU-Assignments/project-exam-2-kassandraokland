@@ -57,10 +57,10 @@ export default function GetProfile() {
                 <div style={{ backgroundImage: `url(${profile.banner ? profile.banner : defaultBanner})` }} className="bannerImage" id="banner"></div>
                 <Row>
                     <Col>
-                        <div style={{ backgroundImage: `url(${profile.avatar ? profile.avatar : defaultAvatar})` }} className="profileImage" id="avatar"></div>
+                        <div style={{ backgroundImage: `url(${profile.avatar ? profile.avatar : defaultAvatar})` }} className="profileImage m-3" id="avatar"></div>
                     </Col>
                     <Col className="m-3">
-                        <SubHeading content={`@${profile.name}`}  />
+                        <SubHeading content={`@${profile.name}`} className="pt-3" />
                         <p className="text-muted">{profile.email}</p>
                     </Col>
                 </Row>

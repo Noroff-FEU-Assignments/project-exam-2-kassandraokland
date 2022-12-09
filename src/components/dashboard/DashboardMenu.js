@@ -11,7 +11,7 @@ export default function DashboardMenu() {
 	return (
 		<Container>
 			<Nav className="dashboard-menu">
-				<Link to={`/users/${auth.name}`}><PersonFill /></Link>
+				<Link to={`/users/${auth.name}`}><PersonFill className="m-2" />My profile page</Link>
 			</Nav>
 		</Container>
 	);

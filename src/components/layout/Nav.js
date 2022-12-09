@@ -4,13 +4,10 @@ import AuthContext from "../../context/AuthContext";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-//import { PersonFill } from "react-bootstrap-icons";
 import Button from "react-bootstrap/Button";
 
-function NavLayout(props) {
+function NavLayout() {
 	const [auth, setAuth] = useContext(AuthContext);
-
-	//const isLoggedIn = props.isLoggedIn;
 
 	const history = useNavigate();
 	
@@ -33,18 +30,18 @@ function NavLayout(props) {
 				)}
 				<Nav>
 					{auth ? (
-						<Link to="dashboard">Home</Link>
+						<Link to="dashboard" className="m-2">Dashboard</Link>
 					) : (
-						<Link to="/">Home</Link>
+						<Link to="/" className="m-2">Home</Link>
 					)}
 					{auth ? (
 						<> 
-							<Button onClick={logout} size="sm">Log out</Button>
-							<Link to="users">Profiles</Link>
-							<Link to="dashboard/posts">Post Page</Link>
+							<Button onClick={logout} size="sm" className="m-2">Log out</Button>
+							<Link to="users" className="m-2">Profiles</Link>
+							<Link to="dashboard/posts" className="m-2">Post Page</Link>
 						</>
 					) : (
-						<Link to="/login">Login</Link>
+						<Link to="/login" className="m-2">Login</Link>
 					)}
 				</Nav>
 			</Container>

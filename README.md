@@ -26,6 +26,15 @@
   </tbody>
 </table>
 
+Dependencies:
+- npm install react-bootstrap bootstrap
+- npm install yup @hookform/resolvers
+- npm install react-hook-form
+- npm i axios react-hook-form @hookform/resolvers yup react-router-dom
+- npm i react-router-dom
+- npm i react-bootstrap
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

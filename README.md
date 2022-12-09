@@ -1,3 +1,31 @@
+
+<table>
+  <thead>
+    <tr>
+      <th>App deployed on netlify</th>
+      <td>https://main--chipper-boba-4e66d3.netlify.app/</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Gantt Chart</th>
+      <td>https://docs.google.com/spreadsheets/d/1gfwzM7yXV4i22rrHIRI31YnnCWNcU6Q1UyxassuDAHU/edit?usp=sharing</td>
+    </tr>
+    <tr>
+      <th>Design Prototype</th>
+      <td>https://xd.adobe.com/view/b7159250-d79c-4d88-a99e-ea7fcc78d15d-e246/</td>
+    </tr>
+    <tr>
+      <th>Kanban Board</th>
+      <td>https://trello.com/invite/b/Vq6ABhpo/ATTI39c08154e5c9fdbed2311e023511fb44579A097C/project-exam-2</td>
+    </tr>
+    <tr>
+      <th>Repository</th>
+      <td>https://github.com/Noroff-FEU-Assignments/project-exam-2-kassandraokland</td>
+    </tr>
+  </tbody>
+</table>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
